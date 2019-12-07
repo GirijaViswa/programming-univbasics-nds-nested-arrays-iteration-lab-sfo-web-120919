@@ -9,13 +9,11 @@ def join_ingredients(src)
   
   row_idx = 0
   while row_idx < src.length do
-    element_idx = 0
-    while element_idx < src[row_idx].length do
-      
-      element_idx += 1
-    end
+    sentence = "I love " + src[row_idx][0] + "  and " + src[row_idx][1] + " on my pizza"
+    new_arr << sentence
     row_idx += 1
   end
+  new_arr
 end
 
 def find_greater_pair(src)
