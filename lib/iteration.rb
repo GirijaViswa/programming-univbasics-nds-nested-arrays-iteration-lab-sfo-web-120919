@@ -9,7 +9,7 @@ def join_ingredients(src)
   new_arr = []
   row_idx = 0
   while row_idx < src.length do
-    sentence = "I love " + src[row_idx][0] + "  and " + src[row_idx][1] + " on my pizza"
+    sentence = "I love " + src[row_idx][0] + " and " + src[row_idx][1] + " on my pizza"
     new_arr << sentence
     row_idx += 1
   end
